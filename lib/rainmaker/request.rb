@@ -43,6 +43,9 @@ module Rainmaker
     property :lt, :from => :linkedin_token
     property :tt, :from => :twitter_token
     property :email
+    property :queue
+    property :webhookUrl
+    property :webhookId
   end
   end
 end
